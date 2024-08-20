@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://tier4.github.io/driving_log_replayer_v2/ja/use_case/">
+        <link rel="canonical" href="https://tier4.github.io/driving_log_replayer_v2/ja/use_case/planning_control/">
       
       
-        <link rel="prev" href="../result_format/">
+        <link rel="prev" href="../performance_diag/">
       
       
-        <link rel="next" href="localization/">
+        <link rel="next" href="../traffic_light/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
       
-        <title>評価ユースケース - driving_log_replayer_v2 Documentation</title>
+        <title>Planning Controlの評価 - driving_log_replayer_v2 Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#planning-control" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -94,7 +94,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="ヘッダー">
-    <a href="../" title="driving_log_replayer_v2 Documentation" class="md-header__button md-logo" aria-label="driving_log_replayer_v2 Documentation" data-md-component="logo">
+    <a href="../../" title="driving_log_replayer_v2 Documentation" class="md-header__button md-logo" aria-label="driving_log_replayer_v2 Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              評価ユースケース
+              Planning Controlの評価
             
           </span>
         </div>
@@ -161,7 +161,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../use_case/" hreflang="en" class="md-select__link">
+            <a href="../../../use_case/planning_control/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -241,7 +241,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../../" class="md-tabs__link">
         
   
     
@@ -260,7 +260,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../quick_start/installation/" class="md-tabs__link">
+        <a href="../../quick_start/installation/" class="md-tabs__link">
           
   
     
@@ -280,7 +280,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../trouble_shooting/" class="md-tabs__link">
+        <a href="../../trouble_shooting/" class="md-tabs__link">
           
   
     
@@ -300,7 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../overview/" class="md-tabs__link">
+        <a href="../../overview/" class="md-tabs__link">
           
   
     
@@ -320,7 +320,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../scenario_format/" class="md-tabs__link">
+        <a href="../../scenario_format/" class="md-tabs__link">
           
   
     
@@ -340,7 +340,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../result_format/" class="md-tabs__link">
+        <a href="../../result_format/" class="md-tabs__link">
           
   
     
@@ -362,7 +362,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
     
@@ -382,7 +382,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../analyzer/" class="md-tabs__link">
+        <a href="../../analyzer/" class="md-tabs__link">
           
   
     
@@ -423,7 +423,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../" title="driving_log_replayer_v2 Documentation" class="md-nav__button md-logo" aria-label="driving_log_replayer_v2 Documentation" data-md-component="logo">
+    <a href="../../" title="driving_log_replayer_v2 Documentation" class="md-nav__button md-logo" aria-label="driving_log_replayer_v2 Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -453,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -523,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick_start/installation/" class="md-nav__link">
+      <a href="../../quick_start/installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -544,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick_start/setup/" class="md-nav__link">
+      <a href="../../quick_start/setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -565,7 +565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick_start/run/" class="md-nav__link">
+      <a href="../../quick_start/run/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -618,7 +618,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../trouble_shooting/" class="md-nav__link ">
+            <a href="../../trouble_shooting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -680,7 +680,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../overview/" class="md-nav__link ">
+            <a href="../../overview/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../overview/command/" class="md-nav__link">
+      <a href="../../overview/command/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -766,7 +766,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../scenario_format/" class="md-nav__link ">
+            <a href="../../scenario_format/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -826,7 +826,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../result_format/" class="md-nav__link ">
+            <a href="../../result_format/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -905,7 +905,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -916,7 +916,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_7" id="__nav_7_label" tabindex="">
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -938,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="localization/" class="md-nav__link">
+      <a href="../localization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -959,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="yabloc/" class="md-nav__link">
+      <a href="../yabloc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -980,7 +980,7 @@
   
   
     <li class="md-nav__item">
-      <a href="eagleye/" class="md-nav__link">
+      <a href="../eagleye/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1001,7 +1001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ar_tag_based_localizer/" class="md-nav__link">
+      <a href="../ar_tag_based_localizer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1022,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="obstacle_segmentation/" class="md-nav__link">
+      <a href="../obstacle_segmentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1043,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="perception/" class="md-nav__link">
+      <a href="../perception/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1064,7 +1064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="performance_diag/" class="md-nav__link">
+      <a href="../performance_diag/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1085,7 +1085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="annotationless_perception/" class="md-nav__link">
+      <a href="../annotationless_perception/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1138,7 +1138,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../analyzer/" class="md-nav__link ">
+            <a href="../../analyzer/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1193,11 +1193,128 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#driving_log_replayer_v2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      driving_log_replayer_v2 ユースケース一覧
+      評価方法
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      評価結果
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="評価結果">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      正常
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      異常
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      評価ノードが使用する Topic 名とデータ型
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging_simulatorlaunch" class="md-nav__link">
+    <span class="md-ellipsis">
+      logging_simulator.launch に渡す引数
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      simulation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="simulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rosbag-topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      入力 rosbag に含まれるべき topic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rosbag-topic_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      入力 rosbag に含まれてはいけない topic
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      evaluation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      シナリオフォーマット
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      評価結果フォーマット
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1219,19 +1336,196 @@
   
 
 
-<h1 id="_1">評価ユースケース<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<p>driving_log_replayer_v2 を用いてどのような評価を行えるか述べる。</p>
-<h2 id="driving_log_replayer_v2">driving_log_replayer_v2 ユースケース一覧<a class="headerlink" href="#driving_log_replayer_v2" title="Permanent link">#</a></h2>
+<h1 id="planning-control">Planning Controlの評価<a class="headerlink" href="#planning-control" title="Permanent link">#</a></h1>
+<p>Planning / ControlのMetricsが指定の条件で出力されているか評価する</p>
+<h2 id="_1">評価方法<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p>launch を立ち上げると以下のことが実行され、評価される。</p>
+<ol>
+<li>launch で評価ノード(<code>planning_control_evaluator_node</code>)と <code>logging_simulator.launch</code>、<code>ros2 bag play</code>コマンドを立ち上げる</li>
+<li>bag から出力されたセンサーデータを autoware が受け取って、perception モジュールが認識を行う</li>
+<li>perceptionの結果を使って、planningは <code>/planning/planning_evaluator/metrics</code> に controlは <code>/control/control_evaluator/metrics</code>にMetricsを出力する</li>
+<li>評価ノードが topic を subscribe して、各基準を満たしているかを判定して結果をファイルに記録する</li>
+<li>bag の再生が終了すると自動で launch が終了して評価が終了する</li>
+</ol>
+<h2 id="_2">評価結果<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p>topicのstatus[0].nameがシナリオで指定したモジュール名と一致し、且つ、status[0].value[0].keyがdecisionの場合に評価される。
+また、シナリオでレーン条件を記述した場合は、レーン条件も満たした場合に評価される。
+評価の条件を満たさない場合は、ログも出力されない。</p>
+<h3 id="_3">正常<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
+<p>status[0].values[0].valueがシナリオのdecisionと一致した場合に正常となる。
+kinematic_conditionを指定した場合は追加で、kinematic_stateが条件を満たしている必要がある。</p>
+<h3 id="_4">異常<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
+<p>正常の条件を満たさないとき</p>
+<h2 id="topic">評価ノードが使用する Topic 名とデータ型<a class="headerlink" href="#topic" title="Permanent link">#</a></h2>
+<p>Subscribed topics:</p>
+<table>
+<thead>
+<tr>
+<th>Topic name</th>
+<th>Data type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/control/control_evaluator/metrics</td>
+<td>diagnostic_msgs::msg::DiagnosticArray</td>
+</tr>
+<tr>
+<td>/planning/planning_evaluator/metrics</td>
+<td>diagnostic_msgs::msg::DiagnosticArray</td>
+</tr>
+</tbody>
+</table>
+<p>Published topics:</p>
+<table>
+<thead>
+<tr>
+<th>Topic name</th>
+<th>Data type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+<h2 id="logging_simulatorlaunch">logging_simulator.launch に渡す引数<a class="headerlink" href="#logging_simulatorlaunch" title="Permanent link">#</a></h2>
 <ul>
-<li><a href="localization/">Localization</a></li>
-<li><a href="yabloc/">YabLoc</a></li>
-<li><a href="eagleye/">Eagleye</a></li>
-<li><a href="ar_tag_based_localizer/">AR-Tag Based Localizer</a></li>
-<li><a href="obstacle_segmentation/">Obstacle Segmentation</a></li>
-<li><a href="perception/">Perception</a></li>
-<li><a href="performance_diag/">Performance Diag</a></li>
-<li><a href="annotationless_perception/">Annotationless Perception</a></li>
+<li>localization: false</li>
 </ul>
+<p>bagの中に入っている、/sensing/lidar/concatenated/pointcloudを利用する場合は、launchの引数にsensing:=falseを追加する
+perception、planningも同様にbagから出力する場合は、launchの引数にperception:=false planning:=falseを追加する</p>
+<div class="highlight"><pre><span></span><code>ros2<span class="w"> </span>launch<span class="w"> </span>driving_log_replayer_v2<span class="w"> </span>driving_log_replayer_v2.launch.py<span class="w"> </span>scenario_path:<span class="o">=</span><span class="si">${</span><span class="nv">planning_control_scenario_path</span><span class="si">}</span><span class="w"> </span>sensing:<span class="o">=</span><span class="nb">false</span><span class="w"> </span>perception:<span class="o">=</span><span class="nb">false</span><span class="w"> </span>planning:<span class="o">=</span><span class="nb">false</span>
+</code></pre></div>
+<h2 id="simulation">simulation<a class="headerlink" href="#simulation" title="Permanent link">#</a></h2>
+<p>シミュレーション実行に必要な情報を述べる。</p>
+<h3 id="rosbag-topic">入力 rosbag に含まれるべき topic<a class="headerlink" href="#rosbag-topic" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>topic 名</th>
+<th>データ型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/pacmod/from_can_bus</td>
+<td>can_msgs/msg/Frame</td>
+</tr>
+<tr>
+<td>/localization/kinematic_state</td>
+<td>nav_msgs/msg/Odometry</td>
+</tr>
+<tr>
+<td>/localization/acceleration</td>
+<td>geometry_msgs/msg/AccelWithCovarianceStamped</td>
+</tr>
+<tr>
+<td>/sensing/lidar/concatenated/pointcloud</td>
+<td>sensor_msgs/msg/PointCloud2</td>
+</tr>
+<tr>
+<td>/tf</td>
+<td>tf2_msgs/msg/TFMessage</td>
+</tr>
+<tr>
+<td>/planning/mission_planning/route</td>
+<td>autoware_planning_msgs/msg/LaneletRoute</td>
+</tr>
+</tbody>
+</table>
+<p>CAN の代わりに vehicle の topic を含めても良い。</p>
+<table>
+<thead>
+<tr>
+<th>topic 名</th>
+<th>データ型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/localization/kinematic_state</td>
+<td>nav_msgs/msg/Odometry</td>
+</tr>
+<tr>
+<td>/localization/acceleration</td>
+<td>geometry_msgs/msg/AccelWithCovarianceStamped</td>
+</tr>
+<tr>
+<td>/sensing/lidar/concatenated/pointcloud</td>
+<td>sensor_msgs/msg/PointCloud2</td>
+</tr>
+<tr>
+<td>/tf</td>
+<td>tf2_msgs/msg/TFMessage</td>
+</tr>
+<tr>
+<td>/planning/mission_planning/route</td>
+<td>autoware_planning_msgs/msg/LaneletRoute</td>
+</tr>
+<tr>
+<td>/vehicle/status/control_mode</td>
+<td>autoware_auto_vehicle_msgs/msg/ControlModeReport</td>
+</tr>
+<tr>
+<td>/vehicle/status/gear_status</td>
+<td>autoware_auto_vehicle_msgs/msg/GearReport</td>
+</tr>
+<tr>
+<td>/vehicle/status/steering_status</td>
+<td>autoware_auto_vehicle_msgs/SteeringReport</td>
+</tr>
+<tr>
+<td>/vehicle/status/turn_indicators_status</td>
+<td>autoware_auto_vehicle_msgs/msg/TurnIndicatorsReport</td>
+</tr>
+<tr>
+<td>/vehicle/status/velocity_status</td>
+<td>autoware_auto_vehicle_msgs/msg/VelocityReport</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rosbag-topic_1">入力 rosbag に含まれてはいけない topic<a class="headerlink" href="#rosbag-topic_1" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>topic 名</th>
+<th>データ型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/clock</td>
+<td>rosgraph_msgs/msg/Clock</td>
+</tr>
+</tbody>
+</table>
+<p>clock は、ros2 bag play の--clock オプションによって出力しているので、bag 自体に記録されていると 2 重に出力されてしまうので bag には含めない</p>
+<h2 id="evaluation">evaluation<a class="headerlink" href="#evaluation" title="Permanent link">#</a></h2>
+<p>評価に必要な情報を述べる。</p>
+<h3 id="_5">シナリオフォーマット<a class="headerlink" href="#_5" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/tier4/driving_log_replayer/blob/main/sample/planning_control/scenario.ja.yaml">サンプル</a>参照</p>
+<h3 id="_6">評価結果フォーマット<a class="headerlink" href="#_6" title="Permanent link">#</a></h3>
+<p><a href="https://github.com/tier4/driving_log_replayer/blob/main/sample/planning_control/result.json">サンプル</a>参照</p>
+<p>以下に、それぞれの評価の例を記述する。
+<strong>注:結果ファイルフォーマットで解説済みの共通部分については省略する。</strong></p>
+<p>planning と controlで設定した全ての評価条件で成功している場合に成功と判定される。</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;Frame&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;[Planning|Control]_CONDITION_INDEX&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;Result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Total&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Success or Fail&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;Frame&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Success or Fail&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">      </span><span class="nt">&quot;Info&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;TotalPassed&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;評価条件をパスしたtopicの総数&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;Decision&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;取得したtopicのdecision&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;LaneInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;[lane_id, s, t]&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;KinematicState&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;[vel, acc, jerk]&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
 
 
 
@@ -1267,7 +1561,7 @@
       <nav class="md-footer__inner md-grid" aria-label="フッター" >
         
           
-          <a href="../result_format/" class="md-footer__link md-footer__link--prev" aria-label="前: driving_log_replayer_v2 結果ファイルフォーマット">
+          <a href="../performance_diag/" class="md-footer__link md-footer__link--prev" aria-label="前: 診断機能の評価">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1277,20 +1571,20 @@
                 前
               </span>
               <div class="md-ellipsis">
-                driving_log_replayer_v2 結果ファイルフォーマット
+                診断機能の評価
               </div>
             </div>
           </a>
         
         
           
-          <a href="localization/" class="md-footer__link md-footer__link--next" aria-label="次: NDT自己位置推定の評価">
+          <a href="../traffic_light/" class="md-footer__link md-footer__link--next" aria-label="次: 信号機認識機能の評価">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 次
               </span>
               <div class="md-ellipsis">
-                NDT自己位置推定の評価
+                信号機認識機能の評価
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1328,10 +1622,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
