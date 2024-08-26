@@ -885,6 +885,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
       
@@ -1316,6 +1322,69 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traffic_light/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluate perception(traffic light)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perception_2d/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluate perception(Camera)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning_control/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evaluate Planning Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1620,11 +1689,11 @@
 <li>When the playback of the rosbag is finished, Autoware's launch is automatically terminated, and the evaluation is completed.</li>
 </ol>
 <h3 id="visibility-evaluation">visibility evaluation<a class="headerlink" href="#visibility-evaluation" title="Permanent link">#</a></h3>
-<p>The evaluation process confirms that more than a specified number of ERRORs for limited visibility are generated for rosbag input data obtained under rainy conditions (naturally or artificially generated).
+<p>The evaluation process confirms that more than a specified rate of ERRORs for limited visibility are generated for rosbag input data obtained under rainy conditions (naturally or artificially generated).
 Also, using data obtained during sunny weather, it is confirmed that ERRORs are never generated.</p>
 <p>The <code>status.name</code> in <code>/diagnostics</code> corresponding to <code>dual_return_filter: /sensing/lidar/.*: visibility_validation</code> is used for judgment.</p>
 <h3 id="blockage-evaluation">blockage evaluation<a class="headerlink" href="#blockage-evaluation" title="Permanent link">#</a></h3>
-<p>For blockage evaluation, acquire data with LiDAR intentionally covered with a material that will not pass the laser beam (for example box). The evaluation confirms that ERROR for blockage is output more than a certain number of times for the considered situation.
+<p>For blockage evaluation, acquire data with LiDAR intentionally covered with a material that will not pass the laser beam (for example box). The evaluation confirms that ERROR for blockage is output more than a certain rate for the considered situation.
 The node will also confirm that no ERROR is generated for not covered LiDAR.</p>
 <p>The <code>status.name</code> in <code>/diagnostics</code> corresponding to <code>blockage_return_diag: /sensing/lidar/.*: blockage_validation</code> is used for judgment.</p>
 <h2 id="evaluation-result">Evaluation Result<a class="headerlink" href="#evaluation-result" title="Permanent link">#</a></h2>

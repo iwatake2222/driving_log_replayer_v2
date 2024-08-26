@@ -885,6 +885,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
       
@@ -1316,6 +1322,69 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../traffic_light/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    信号機認識機能の評価
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perception_2d/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    認識機能の評価(カメラ)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning_control/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning Controlの評価
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1620,11 +1689,11 @@
 <li>bag の再生が終了すると自動で launch が終了して評価が終了する</li>
 </ol>
 <h3 id="visibility">visibility 評価<a class="headerlink" href="#visibility" title="Permanent link">#</a></h3>
-<p>visibility の評価では、雨天時や人工的に雨を降らせられる施設で取得したデータを用いて visibility の ERROR が一定数以上出力されることを確認する。
+<p>visibility の評価では、雨天時や人工的に雨を降らせられる施設で取得したデータを用いて visibility の ERROR が一定レート以上出力されることを確認する。
 また、晴天時のデータを利用して、ERROR が一度も出ないことを確認する。</p>
 <p><code>/diagnostics</code>の<code>status.name</code>が<code>dual_return_filter: /sensing/lidar/.*: visibility_validation</code>に該当するものを判定に利用する。</p>
 <h3 id="blockage">blockage 評価<a class="headerlink" href="#blockage" title="Permanent link">#</a></h3>
-<p>blockage の評価では、LiDAR を意図的にレーザー光を通さない素材(箱など)で覆った状態でデータを取得し blockage の ERROR が一定数以上出力されることを確認する。
+<p>blockage の評価では、LiDAR を意図的にレーザー光を通さない素材(箱など)で覆った状態でデータを取得し blockage の ERROR が一定レート以上出力されることを確認する。
 また、覆ってない LiDAR については ERROR が一度も出ないことを確認する。</p>
 <p><code>/diagnostics</code>の<code>status.name</code>が<code>blockage_return_diag: /sensing/lidar/.*: blockage_validation</code>に該当するものを判定に利用する。</p>
 <h2 id="_3">評価結果<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
