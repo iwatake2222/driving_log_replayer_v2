@@ -114,7 +114,7 @@ def create_output_dir(output_dir_str: str, scenario_path: Path) -> Path:
 def check_launch_component(conf: dict) -> dict:
     use_case_launch_arg = driving_log_replayer_v2_config[conf["use_case"]]["disable"]
     # update autoware component launch or not
-    autoware_components = ["sensing", "localization", "perception", "planning", "control"]
+    autoware_components = ["sensing", "localization", "perception", "planning", "control", "launch_system_monitor"]
     launch_component = {}
     for component in autoware_components:
         # argument has higher priority than the launch_config.py setting.
